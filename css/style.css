@@ -1,0 +1,47 @@
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+p {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+  
+  /* Navigation bar */
+  
+  /* General */
+  .customNav {
+    position: fixed;
+    width: 100%;
+    background-color: lightseagreen;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+  /* Navigation links */
+  .customNav a {
+    color: white !important;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+  
+  /* Jumbotron  */
+  .myImage {
+    margin-top: 25px;
+    background-image: url(../images/Anthony_Greenwood_highres.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: fit-content;
+  }
+  
