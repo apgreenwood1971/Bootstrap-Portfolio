@@ -10,30 +10,30 @@ p {
   
   /* General */
   .customNav {
-    position: fixed;
+    position: relative;
     width: 100%;
-    background-color: lightseagreen;
+    background-color: #0074d9;
     background-size: cover;
-    z-index: 10;
+  }
+
+  .navbar-brand {
+    font-size: large;
   }
   .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
   }
-  .navbar-brand img {
-    padding-right: 15px;
-    width: 65px;
-  }
+  
   .nav-item {
     margin: 0px 15px;
   }
   
   /* Navigation links */
   .customNav a {
-    color: white !important;
+    color: black !important;
   }
   .navCTA {
-    font-size: 15px;
+    font-size: 25px;
   }
   
   /* Jumbotron  */
